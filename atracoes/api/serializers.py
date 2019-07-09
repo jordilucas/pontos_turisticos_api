@@ -5,4 +5,4 @@ class AtracaoSerializer(ModelSerializer):
     class Meta:
         model = Atracao
         fields = ('id', 'nome', 'horario_func',
-        'idade_min')
+        'idade_min', 'foto')
