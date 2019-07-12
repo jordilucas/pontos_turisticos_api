@@ -10,6 +10,7 @@ from comentarios.api.viewsets import ComentariosViewSet
 from localizacao.api.viewsets import EnderecosViewSet
 from avaliacoes.api.viewsets import AvaliacoesViewSet
 from rest_framework.authtoken import views
+from rest_framework_jwt.views import obtain_jwt_token
 
 router = routers.DefaultRouter()
 router.register(r'pontoturisticos', PontoTuristicoViewSet)
@@ -22,5 +23,6 @@ router.register(r'avaliacoes', AvaliacoesViewSet)
 urlpatterns = [
     path('', include(router.urls)),
     path('admin/', admin.site.urls),
-    path('api-token-auth/', views.obtain_auth_token)
+    path('api-token-auth/', views.obtain_auth_token),
+    path('login', obtain_jwt_token),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
