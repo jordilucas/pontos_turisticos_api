@@ -6,7 +6,7 @@ from rest_framework.authentication import TokenAuthentication
 
 
 class AtracoesViewSet(ModelViewSet):
-    permission_classes = (IsAuthenticated,)
-    authentication_classes = (TokenAuthentication,)
+   # permission_classes = (IsAuthenticated,)
+   # authentication_classes = (TokenAuthentication,)
     queryset = Atracao.objects.all()
     serializer_class = AtracaoSerializer

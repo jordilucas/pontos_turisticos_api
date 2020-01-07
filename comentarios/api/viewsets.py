@@ -6,7 +6,7 @@ from rest_framework.authentication import TokenAuthentication
 
 
 class ComentariosViewSet(ModelViewSet):
-    permission_classes = (IsAuthenticated,)
-    authentication_classes = (TokenAuthentication,)
+   # permission_classes = (IsAuthenticated,)
+   # authentication_classes = (TokenAuthentication,)
     queryset = Comentarios.objects.all()
     serializer_class = ComentariosSerializer
