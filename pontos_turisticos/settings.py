@@ -131,13 +131,13 @@ USE_TZ = True
 
 
 
-STATIC_URL = '/static/'
+#STATIC_URL = '/static/'
 
-#MEDIA_ROOT = 'imagens'
+MEDIA_ROOT = 'imagens'
 
 #MEDIA_URL = '/media/'
 
-MEDIA_URL = 'django_gcloud_storage.DjangoGCloudStorage'
+#MEDIA_URL = 'django_gcloud_storage.DjangoGCloudStorage'
 
 GOOGLE_CLOUD_STORAGE_BUCKET = '/pontosturisticos' # the name of the bucket you have created from the google cloud storage console
 GOOGLE_CLOUD_STORAGE_URL = 'https://console.cloud.google.com/storage/browser/pontosturisticos/' #whatever the ulr for accessing your cloud storgage bucket
