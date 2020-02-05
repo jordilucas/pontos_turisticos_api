@@ -129,10 +129,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-DEFAULT_FILE_STORAGE = 'django_gcloud_storage.DjangoGCloudStorage'
-GCS_PROJECT = "django-gcloud-storage"
-GCS_BUCKET = "django-gcloud-storage-bucket"
-GCS_CREDENTIALS_FILE_PATH = "/pontos_turisticos_api/pontos-turisticos-267315-0498fd913ee9.json"
+#DEFAULT_FILE_STORAGE = 'django_gcloud_storage.DjangoGCloudStorage'
+#GCS_PROJECT = "django-gcloud-storage"
+#GCS_BUCKET = "django-gcloud-storage-bucket"
+#GCS_CREDENTIALS_FILE_PATH = "/pontos_turisticos_api/pontos-turisticos-267315-0498fd913ee9.json"
 
 STATIC_URL = '/static/'
 
