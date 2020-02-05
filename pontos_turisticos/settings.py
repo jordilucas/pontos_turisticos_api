@@ -133,7 +133,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-MEDIA_ROOT = 'imagens'
+#MEDIA_ROOT = 'imagens'
 
 #MEDIA_URL = '/media/'
 
@@ -142,6 +142,9 @@ MEDIA_URL = 'django_gcloud_storage.DjangoGCloudStorage'
 GOOGLE_CLOUD_STORAGE_BUCKET = '/pontosturisticos' # the name of the bucket you have created from the google cloud storage console
 GOOGLE_CLOUD_STORAGE_URL = 'https://console.cloud.google.com/storage/browser/pontosturisticos/' #whatever the ulr for accessing your cloud storgage bucket
 GOOGLE_CLOUD_STORAGE_DEFAULT_CACHE_CONTROL = 'public, max-age: 7200' # default cache control headers for your files
+
+STATIC_URL = "https://storage.googleapis.com/{}/".format(GOOGLE_CLOUD_STORAGE_BUCKET)
+MEDIA_URL = "https://storage.googleapis.com/{}/".format(GOOGLE_CLOUD_STORAGE_BUCKET)
 
 #GCS_PROJECT = "django-gcloud-storage"
 #GCS_BUCKET = "django-gcloud-storage-bucket"
