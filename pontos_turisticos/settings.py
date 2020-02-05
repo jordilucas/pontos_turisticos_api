@@ -137,10 +137,9 @@ MEDIA_ROOT = 'imagens'
 
 MEDIA_URL = '/media/'
 
-DEFAULT_FILE_STORAGE = 'django_gcloud_storage.DjangoGCloudStorage'
-GCS_PROJECT = "django-gcloud-storage"
-GCS_BUCKET = "django-gcloud-storage-bucket"
-GCS_CREDENTIALS_FILE_PATH = "/pontos_turisticos_api/pontos-turisticos-267315-0498fd913ee9.json"
+GOOGLE_CLOUD_STORAGE_BUCKET = '/pontosturisticos' # the name of the bucket you have created from the google cloud storage console
+GOOGLE_CLOUD_STORAGE_URL = 'https://storage.cloud.google.com/pontosturisticos/' #whatever the ulr for accessing your cloud storgage bucket
+GOOGLE_CLOUD_STORAGE_DEFAULT_CACHE_CONTROL = 'public, max-age: 7200' # default cache control headers for your files
 
 #REST_FRAMEWORK = {
  #   'DEFAULT_PERMISSION_CLASSES': (
