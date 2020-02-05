@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "pontos-turisticos-267315",
+  "private_key_id": "0498fd913ee96d9238c509b3b7a1f08a56aad900",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDIQIWQ85Wc8RZA\nmEb3lD1aEkXFmvYSv/DopQIQJf0ih7SHV80D6URuK8aWk2cD3B6GvyDmSaANLpDu\nlTNEIexX9qc4jyZaLT3qjnj1A73qVifc9fFRKw/q+uKnLJzYfbHwvTJ6RsMcMaFa\naungZ4k5UFgv5egK2HhiONjXjqkTp1Zhl4drypmPqt663KJgBurH8Uw5O/DO/4Tw\nTpK2mWGxH/j1lQIioAR1ATJEnCt6D/iBR2xW4kzy40oEnXlGmR7i1+SmRxh11owy\nkM+l1DfWq6LYwwnBBRdxVB6Kyb/pp0Cg1n6mCLQugRRHn9tf2wK/CNVsmtT0XrES\n1YhmcWzpAgMBAAECggEAFJcBxMIu73ige5rMrTcqScEYOHWy+IGQ0TLqL+PgD7VZ\nXBMsisro1NUecawNSwnOf7dWOCd40/ImR8nCgC5mwTKkxf1+CYaeV6g3iqXMWLRs\nG92T5u8hD12lgV/mbqIZ8jFZ59WvyQ3XU9crXf33T5PRxXcDsV3JnvvOW/eYreL3\ngzsfsxYfbe4tZb+2/6B/hwIHJGSgaMOR63nk0qlEZYV/Gl3HAm0dUxLQ5zEdW27l\neIYeb1uL3V5kZGgXopdYhseueYM+qDVaTh1/BHQeZRirmuBBHI249VdQXheQ1de8\nzoshrfSyYpNdHLt4oiyeUZOqBt633ukl53KEM5pdkwKBgQD6mr4oPF2yBNAsLLxL\nXgPk8+KknU0w58rhnd3FxJ7EIjAGiGc7/8xoUca4fDqiGvrccP8JzHCmUhdyXOFE\naJsnS8Nc+Doa/HlBfeeXOZm4gKOMjPVIHl7agTZw4MUckUjEYbhfsPv2QxAgxmgr\n8hTCL/T4orGvqsWyZK4SPLjNhwKBgQDMkEBZHiV7P37rKf9pXQS+17PGf56PEgC8\nWyqjtEw3mXb64nXii5mgbGSgkiYPdSU4p5O9rmceeQxcD25ma0LSG4uyblUDkseg\ni/sHOg6Cjp2+XW/OVN6sNcynx3ahu+u6mPfHpsF4LXDF6Y5Ah1BFwZY5Mx3UXM0b\nJpGLeKAODwKBgQCyyODuzZo+nYZybXvr/OekWIYR0JM4V7V63mhQZmSqIoXGs1uL\nB4QpzGWMSjx+V+cui4K3191qGtjVYwPnDQXbtAZtdj3l8McE/TDSx2ouob+MTyfS\nSrB7DIHtZ73YEqIqUFj8E8S9vLxt1X6OE4fRverz0wYXACtIiOFS63UgUwKBgEEP\nsCen+uvUKh3JYb61Iwk/uaHsfRWr+CfwJwOiGIumd70bwbqoA9iOIQMg+JH6BDic\ns9SkX4/FmDS/g7F3c+03bZr2lHtqd6uMWe7WfD7x9SHSvfi17YyAH/NM8WJHTpYu\niMArPWVnrnKD8gZ8Av/srkbLBzW/vkxgW/IsD1vpAoGBAJLK73ioss2SsHJFliuf\nM83GuENTtIHIkm0JOPCirETK0i6XBhGm0tO1EFOrUSeTTmpbQDOfDEImtJLDXra7\nAVzvGbSFLhkVqNIZgeqeKsnjQRrVDbagqaQ5/9xokM6YAlFT3BzdFoqVQu0Zq0nK\nm6ScYxuTYECHnfGs54H28nVP\n-----END PRIVATE KEY-----\n",
+  "client_email": "pontos-turisticos@pontos-turisticos-267315.iam.gserviceaccount.com",
+  "client_id": "107972224542915069839",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pontos-turisticos%40pontos-turisticos-267315.iam.gserviceaccount.com"
+}
