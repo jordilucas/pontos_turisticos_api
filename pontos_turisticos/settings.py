@@ -129,22 +129,28 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
+from google.oauth2 import service_account
 
-
-#STATIC_URL = '/static/'
+STATIC_URL = '/static/'
 
 MEDIA_ROOT = 'imagens'
 
-#MEDIA_URL = '/media/'
+MEDIA_URL = '/media/'
 
+DEFAULT_FILE_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
+GS_BUCKET_NAME = 'pontosturisticos'
+STATICFILES_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
+GS_CREDENTIALS = service_account.Credentials.from_service_account_file(
+    "/pontos-turisticos-267315-0498fd913ee9.json"
+)
 #MEDIA_URL = 'django_gcloud_storage.DjangoGCloudStorage'
 
-GOOGLE_CLOUD_STORAGE_BUCKET = '/pontosturisticos' # the name of the bucket you have created from the google cloud storage console
-GOOGLE_CLOUD_STORAGE_URL = 'https://console.cloud.google.com/storage/browser/pontosturisticos/' #whatever the ulr for accessing your cloud storgage bucket
-GOOGLE_CLOUD_STORAGE_DEFAULT_CACHE_CONTROL = 'public, max-age: 7200' # default cache control headers for your files
+#GOOGLE_CLOUD_STORAGE_BUCKET = '/pontosturisticos' # the name of the bucket you have created from the google cloud storage console
+#GOOGLE_CLOUD_STORAGE_URL = 'https://console.cloud.google.com/storage/browser/pontosturisticos/' #whatever the ulr for accessing your cloud storgage bucket
+#GOOGLE_CLOUD_STORAGE_DEFAULT_CACHE_CONTROL = 'public, max-age: 7200' # default cache control headers for your files
 
-STATIC_URL = "https://storage.googleapis.com/{}/".format(GOOGLE_CLOUD_STORAGE_BUCKET)
-MEDIA_URL = "https://storage.googleapis.com/{}/".format(GOOGLE_CLOUD_STORAGE_BUCKET)
+#STATIC_URL = "https://storage.googleapis.com/{}/".format(GOOGLE_CLOUD_STORAGE_BUCKET)
+#MEDIA_URL = "https://storage.googleapis.com/{}/".format(GOOGLE_CLOUD_STORAGE_BUCKET)
 
 #GCS_PROJECT = "django-gcloud-storage"
 #GCS_BUCKET = "django-gcloud-storage-bucket"
