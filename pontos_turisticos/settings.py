@@ -138,8 +138,8 @@ MEDIA_ROOT = 'imagens'
 MEDIA_URL = '/media/'
 
 #DEFAULT_FILE_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
-GS_BUCKET_NAME = 'pontosturisticos'
-STATICFILES_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
+#GS_BUCKET_NAME = 'pontosturisticos'
+#STATICFILES_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
 #GS_CREDENTIALS = service_account.Credentials.from_service_account_file(
 #    "/pontos_turisticos/pontos-turisticos-267315-0498fd913ee9.json"
 #)
