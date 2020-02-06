@@ -137,12 +137,12 @@ MEDIA_ROOT = 'imagens'
 
 MEDIA_URL = '/media/'
 
-DEFAULT_FILE_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
-GS_BUCKET_NAME = 'pontosturisticos'
-STATICFILES_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
-GS_CREDENTIALS = service_account.Credentials.from_service_account_file(
-    "/pontos-turisticos-267315-0498fd913ee9.json"
-)
+#DEFAULT_FILE_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
+#GS_BUCKET_NAME = 'pontosturisticos'
+#STATICFILES_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
+#GS_CREDENTIALS = service_account.Credentials.from_service_account_file(
+#    "pontos-turisticos-267315-0498fd913ee9.json"
+#)
 #MEDIA_URL = 'django_gcloud_storage.DjangoGCloudStorage'
 
 #GOOGLE_CLOUD_STORAGE_BUCKET = '/pontosturisticos' # the name of the bucket you have created from the google cloud storage console
