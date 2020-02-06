@@ -131,11 +131,11 @@ USE_TZ = True
 
 from google.oauth2 import service_account
 
-#STATIC_URL = '/static/'
+STATIC_URL = '/static/'
 
-#MEDIA_ROOT = 'imagens'
+MEDIA_ROOT = 'imagens'
 
-#MEDIA_URL = '/media/'
+MEDIA_URL = '/media/'
 
 DEFAULT_FILE_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
 GS_BUCKET_NAME = 'pontosturisticos'
