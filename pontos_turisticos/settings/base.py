@@ -20,13 +20,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '@=#(qnd8@h)8^3!hvp@vov-i=(eh@t_qq97+_!zz=sikep^uze'
+# SECRET_KEY = '@=#(qnd8@h)8^3!hvp@vov-i=(eh@t_qq97+_!zz=sikep^uze'
 #SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
 #DEBUG = config('DEBUG', default=True, cast=bool)
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
 #ALLOWED_HOSTS = ['ponto-turisticos.herokuapp.com']
 
 
@@ -86,12 +86,12 @@ WSGI_APPLICATION = 'pontos_turisticos.wsgi.application'
 #default_dburl = 'sqlite:///' + os.path.join(BASE_DIR, 'db.sqlite3')
 #DATABASES = { 'default': config('DATABASE_URL', default=default_dburl, cast=dburl), }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
